@@ -18,7 +18,7 @@ public class PowerUpManager {
     }
 
     public void changeTile(int tileCol, int tileRow){
-        int oneOutOfTen = new Random().nextInt(1);
+        int oneOutOfTen = new Random().nextInt(10);
         int whichPowerUp;
         if(gp.player.speed != 8){
             whichPowerUp = new Random().nextInt(4);
